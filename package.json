@@ -1,0 +1,27 @@
+{
+  "name": "gesture-solar-system",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mediapipe/hands": "^0.4.1675469240",
+    "three": "^0.182.0",
+    "react-dom": "^19.2.3",
+    "@mediapipe/camera_utils": "^0.3.1675466862",
+    "react": "^19.2.3",
+    "simplex-noise": "^4.0.3",
+    "react-webcam": "^7.2.0",
+    "@tweenjs/tween.js": "^25.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

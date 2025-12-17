@@ -1,0 +1,7 @@
+{
+  "name": "Gesture Solar System",
+  "description": "A 3D procedural solar system that merges into Earth when you clench your fist using webcam gesture recognition.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
