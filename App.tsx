@@ -25,7 +25,7 @@ const App: React.FC = () => {
         <div className="flex justify-between items-start">
           <div>
             <h1 className="text-white text-3xl font-light tracking-[0.2em] uppercase text-shadow-glow">
-              Solar<span className="font-bold text-purple-400">Gesture</span>
+              Chenjunwei's Solar<span className="font-bold text-purple-400">Gesture</span>
             </h1>
             <p className="text-purple-200 text-xs tracking-widest mt-2 uppercase opacity-70">
               Interactive WebGL System
