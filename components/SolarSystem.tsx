@@ -21,14 +21,14 @@ const CONFIG = {
 };
 
 const PLANETS = [
-  { name: "Mercury", size: 1.5, dist: 35, speed: 0.04, color: "#b0a090", type: "Terrestrial" },
-  { name: "Venus", size: 3.5, dist: 50, speed: 0.015, color: "#e3bb76", type: "Terrestrial" },
-  { name: "Earth", size: 3.8, dist: 70, speed: 0.01, color: "#2277ff", type: "Terrestrial" },
-  { name: "Mars", size: 2.0, dist: 90, speed: 0.008, color: "#c1440e", type: "Terrestrial" },
-  { name: "Jupiter", size: 9.0, dist: 130, speed: 0.004, color: "#dcb288", type: "Gas Giant" },
-  { name: "Saturn", size: 7.5, dist: 170, speed: 0.003, color: "#eebb88", type: "Gas Giant", ring: true },
-  { name: "Uranus", size: 5.0, dist: 210, speed: 0.002, color: "#aaddff", type: "Ice Giant" },
-  { name: "Neptune", size: 4.8, dist: 245, speed: 0.001, color: "#3355ff", type: "Ice Giant" }
+  { name: "Mercury", size: 1.5, dist: 35, speed: -0.04, color: "#b0a090", type: "Terrestrial" },
+  { name: "Venus", size: 3.5, dist: 50, speed: -0.015, color: "#e3bb76", type: "Terrestrial" },
+  { name: "Earth", size: 3.8, dist: 70, speed: -0.01, color: "#2277ff", type: "Terrestrial" },
+  { name: "Mars", size: 2.0, dist: 90, speed: -0.008, color: "#c1440e", type: "Terrestrial" },
+  { name: "Jupiter", size: 9.0, dist: 130, speed: -0.004, color: "#dcb288", type: "Gas Giant" },
+  { name: "Saturn", size: 7.5, dist: 170, speed: -0.003, color: "#eebb88", type: "Gas Giant", ring: true },
+  { name: "Uranus", size: 5.0, dist: 210, speed: -0.002, color: "#aaddff", type: "Ice Giant" },
+  { name: "Neptune", size: 4.8, dist: 245, speed: -0.001, color: "#3355ff", type: "Ice Giant" }
 ];
 
 // --- Shaders ---
